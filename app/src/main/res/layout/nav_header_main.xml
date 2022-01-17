@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@android:color/darker_gray"
+    android:padding="5dp"
+    >
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvUsaurio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de usuario"
+
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

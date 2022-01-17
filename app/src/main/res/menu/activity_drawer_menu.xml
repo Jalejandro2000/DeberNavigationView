@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Acceso1"
+            android:title="Acceso1"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24" />
+        <item
+            android:id="@+id/Acceso2"
+            android:title="Acceso2"
+            android:icon="@drawable/ic_baseline_admin_panel_settings_24" />
+
+
+
+    </group>
+    <item android:title="Accesos básicos">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Acceso3"
+                    android:title="Acceso3"
+
+                    android:icon="@drawable/ic_baseline_admin_panel_settings_24" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

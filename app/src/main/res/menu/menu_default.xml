@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menuGroupAdministrador" android:visible="false">
+        <item android:id="@+id/menuAdministradorHome" android:title="Inicio" android:icon="@drawable/ic_baseline_home_24" />
+        <item android:id="@+id/menuAdministradorUsers" android:title="Ususarios" android:icon="@drawable/ic_baseline_person_24" />
+        <item android:id="@+id/menuAdministradorRoles" android:title="Roles" android:icon="@drawable/ic_baseline_group_24" />
+    </group>
+
+    <group android:id="@+id/menuGroupBasico" android:visible="false">
+        <item android:id="@+id/menuBasicoHome" android:title="Inicio" android:icon="@drawable/ic_baseline_home_24" />
+        <item android:id="@+id/menuBasicoFavorites" android:title="Mis Favoritos" android:icon="@drawable/ic_baseline_favorite_24" />
+        <item android:id="@+id/menuBasicoComments" android:title="Mis comentarios" android:icon="@drawable/ic_baseline_comment_24" />
+    </group>
+
+    <group android:id="@+id/menuGroupSistema" android:visible="false">
+        <item android:id="@+id/menuSistemaHome" android:title="Inicio" android:icon="@drawable/ic_baseline_home_24" />
+        <item android:id="@+id/menuSistemaCpanel" android:title="Panel de control" android:icon="@drawable/ic_baseline_admin_panel_settings_24" />
+        <item android:id="@+id/menuSistemaConfig" android:title="Configuraciones" android:icon="@drawable/ic_baseline_settings_24" />
+    </group>
+
+    <group android:id="@+id/menuGroupAuthenticated" android:visible="false">
+        <item android:id="@+id/menuLogout" android:title="Cerrar sesión" android:icon="@drawable/ic_baseline_exit_to_app_24" />
+    </group>
+
+    <group android:id="@+id/menuGroupNotAuthenticated">
+        <item android:id="@+id/menuAbout" android:title="Acerca de" android:icon="@drawable/ic_baseline_help_24" />
+    </group>
+</menu>
